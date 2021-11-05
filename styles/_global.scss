@@ -1,0 +1,48 @@
+/*Global Styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+    --header1: calc(2rem+1vw);
+    --header2: calc(3.5rem+1vw);
+    --header3: calc(3rem+1vw);
+    --header4: calc(2.4rem+1vw);
+    --text: calc(2.5rem+1vw);
+    --big: calc(6rem+1vw);
+    --special-color: #906272;
+    --background-color: #414141;
+    --gray-text: #525252;
+  }
+  h1 {
+    font-size: $header1;
+  }
+  
+  li,
+  button,
+  label,
+  input,
+  p,
+  a {
+    font-size: $text;
+  }
+  h2 {
+    font-size: $header2;
+  }
+  h3 {
+    font-size: $header3;
+  }
+  h4,
+  h5 {
+    font-size: $header4;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: $gray-text;
+  }
